@@ -1,0 +1,62 @@
+{
+  "name": "3-3_独立按键控制led显示二进制",
+  "type": "C51",
+  "dependenceList": [],
+  "srcDirs": [
+    "src"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": []
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "9ce0475a8cdbd0fa5231f2891b69b74a"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [],
+      "toolchain": "SDCC",
+      "compileConfig": {
+        "options": "null"
+      },
+      "uploader": "Custom",
+      "uploadConfig": {
+        "bin": "",
+        "commandLine": "",
+        "eraseChipCommand": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [],
+        "libList": [],
+        "defineList": []
+      },
+      "builderOptions": {
+        "SDCC": {
+          "version": 3,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "device": "mcs51",
+            "optimize-type": "speed",
+            "use-non-free": false
+          },
+          "c/cpp-compiler": {
+            "language-c": "c99"
+          },
+          "asm-compiler": {},
+          "linker": {
+            "$mainFileName": "main",
+            "output-format": "hex"
+          }
+        }
+      }
+    }
+  },
+  "version": "3.5"
+}
